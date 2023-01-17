@@ -1,0 +1,22 @@
+#dn: ou=people,dc=tekup,dc=tn
+#objectClass: organization
+#ou: people
+
+#dn: ou=groups,dc=tekup,dc=tn
+#objectClass: organization
+#ou: groups
+
+# Création de l'objet "utilisateur"
+	dn: ou=people,dc=tek-up,dc=de
+	objectClass: organizationalUnit
+	ou: people
+
+	# Création de l'objet "groups"
+	dn: ou=groups,dc=tek-up,dc=de
+	objectClass: organizationalUnit
+	ou: groups
+
+	# Création de l'objet "group"
+	dn: ou=group,dc=tek-up,dc=de
+	objectClass: organizationalUnit
+	ou: group
